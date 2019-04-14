@@ -119,13 +119,6 @@ class App extends Component {
 
           {/* Change Due */}
           <div className='col-md-8 panel'>
-            {/* <div>
-              <output
-                name='changeDue'
-                value={ this.state.amountDue }
-                onSubmit={ this.renderChangeDue }
-              />
-            </div> */}
             <div className='text-center'>
               {this.state.changeDue ? this.state.changeDue > 0 ? (<div className='alert alert-success'>The total change due is ${ this.state.changeDue }</div>) : (<div className='alert alert-danger'>Additional money is owed</div>) : ''}
             </div>
