@@ -23,4 +23,4 @@ $ npm start
 
 ## Now
 Deployed to NOW through URL
->
+>https://react100-change-calculator-alkywk7x1.now.sh
